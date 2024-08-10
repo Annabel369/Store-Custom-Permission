@@ -86,6 +86,16 @@ Config `admin_groups.json`:
 
 Edit file game\csgo\addons\counterstrikesharp\configs\admin_overrides.example.json for admin_overrides.json
 
+```{
+  "vip_store_given_by": {//Defalt "example_command"
+    "flags": [
+      "@css/custom-permission"
+    ],
+    "check_type": "all",
+    "enabled": true
+  }
+}```
+
 flag @css/custom-permission is already a VIP already configured originally, the name is technical details but it works without permission 100, which is the original default
 
 # Config
