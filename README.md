@@ -5,7 +5,7 @@ Name Bonus module for Store: Awards players bonus credits if their name contains
 Config `admin_groups.json`:
 ```
 {
-  "css/admin": {
+  "#css/admin": {
     "flags": [
       "@css/reservation",
       "@css/generic",
