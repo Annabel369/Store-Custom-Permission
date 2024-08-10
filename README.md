@@ -2,6 +2,7 @@
 
 flag @css/custom-permission is already a VIP already configured originally, the name is technical details but it works without permission 100, which is the original default
 Name Bonus module for Store: Awards players bonus credits if their name contains specific promotional texts, with customizable intervals and bonus amounts.
+Edit file game\csgo\addons\counterstrikesharp\configs\admin_groups.exemple.json for admin_groups.json
 Config `admin_groups.json`:
 ```
 {
