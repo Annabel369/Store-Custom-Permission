@@ -1,4 +1,6 @@
 # [Store module] Custom-Permission
+
+flag @css/custom-permission is already a VIP already configured originally, the name is technical details but it works without permission 100, which is the original default
 Name Bonus module for Store: Awards players bonus credits if their name contains specific promotional texts, with customizable intervals and bonus amounts.
 Config `admin_groups.json`:
 ```
