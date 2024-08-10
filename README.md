@@ -5,7 +5,7 @@ Name Bonus module for Store: Awards players bonus credits if their name contains
 Config `admin_groups.json`:
 ```
 {
-  "#css/dono": {
+  "css/admin": {
     "flags": [
       "@css/reservation",
       "@css/generic",
@@ -25,53 +25,6 @@ Config `admin_groups.json`:
       "@css/root"
     ],
     "immunity": 99
-  },
-  
-  "#css/subdono": {
-    "flags": [
-      "@css/reservation",
-      "@css/generic",
-      "@css/kick",
-      "@css/ban",
-      "@css/unban",
-      "@css/vip",
-      "@css/slay",
-      "@css/changemap",
-      "@css/chat",
-      "@css/vote",
-      "@css/password"
-    ],
-    "immunity": 90
-  },
-  
-  "#css/admin": {
-    "flags": [
-      "@css/reservation",
-      "@css/generic",
-      "@css/kick",
-      "@css/ban",
-      "@css/vip",
-      "@css/slay",
-      "@css/changemap",
-      "@css/chat",
-      "@css/vote",
-      "@css/password"
-    ],
-    "immunity": 85
-  },
-  
-  "#css/mod": {
-    "flags": [
-      "@css/reservation",
-      "@css/generic",
-      "@css/kick",
-      "@css/ban",
-      "@css/vip",
-      "@css/slay",
-      "@css/chat",
-      "@css/vote"
-    ],
-    "immunity": 80
   },
   
   "#css/custom-permission": {
