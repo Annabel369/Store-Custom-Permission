@@ -1,0 +1,17 @@
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/bin/Debug/net8.0/lang/en.json
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/bin/Debug/net8.0/lang/pt-BR.json
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/bin/Debug/net8.0/lang/tr.json
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/bin/Debug/net8.0/cs2-store-custom-permission.deps.json
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/bin/Debug/net8.0/cs2-store-custom-permission.dll
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/bin/Debug/net8.0/cs2-store-custom-permission.pdb
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/bin/Debug/net8.0/StoreApi.dll
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.csproj.AssemblyReference.cache
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.GeneratedMSBuildEditorConfig.editorconfig
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.AssemblyInfoInputs.cache
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.AssemblyInfo.cs
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.csproj.CoreCompileInputs.cache
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.csproj.CopyComplete
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.dll
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/refint/cs2-store-custom-permission.dll
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/cs2-store-custom-permission.pdb
+/home/amauri/Documentos/Projetosdot8/Store-Custom-Permission-main/obj/Debug/net8.0/ref/cs2-store-custom-permission.dll

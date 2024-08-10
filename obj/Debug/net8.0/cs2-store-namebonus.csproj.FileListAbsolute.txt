@@ -1,0 +1,17 @@
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/bin/Debug/net8.0/lang/en.json
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/bin/Debug/net8.0/lang/pt-BR.json
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/bin/Debug/net8.0/lang/tr.json
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/bin/Debug/net8.0/cs2-store-namebonus.deps.json
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/bin/Debug/net8.0/cs2-store-namebonus.dll
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/bin/Debug/net8.0/cs2-store-namebonus.pdb
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/bin/Debug/net8.0/StoreApi.dll
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.csproj.AssemblyReference.cache
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.GeneratedMSBuildEditorConfig.editorconfig
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.AssemblyInfoInputs.cache
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.AssemblyInfo.cs
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.csproj.CoreCompileInputs.cache
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.csproj.CopyComplete
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.dll
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/refint/cs2-store-namebonus.dll
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/cs2-store-namebonus.pdb
+/home/amauri/Documentos/Projetosdot8/Store-NameBonus-main/obj/Debug/net8.0/ref/cs2-store-namebonus.dll
