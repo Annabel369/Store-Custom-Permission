@@ -31,7 +31,11 @@ Config `admin_groups.json`:
   "#css/custom-permission": {
     "flags": [
       "@css/reservation",
-      "@css/vip"
+      "@css/vip",
+      "@css/generic",
+      "@css/chat",
+      "@css/vote",
+      "@css/custom-permission"
     ],
     "immunity": 40
   }
@@ -55,19 +59,20 @@ Edit file game\csgo\addons\counterstrikesharp\configs\admin_overrides.example.js
 flag @css/custom-permission is already a VIP already configured originally, the name is technical details but it works without permission 100, which is the original default
 
 # Config
-Config will be auto generated. Default:
-```json
-{
-  "ad_texts": [
-    "YourAd1",
-    "YourAd2"
+
+"css_vip_adduser \"{SteamID}\" \"VIP_Gold\" \"40000\""
+        },
+        {
+          "Days": 60,
+          "Price": 3500,
+          "Command": "css_addadmin \"{SteamID}\" \"{NameUser}\" \"@css/custom-permission" \"40 40000\""
+        }
+      ]
+    }
   ],
-  "bonus_credits": 100,
-  "interval_in_seconds": 300,
-  "show_ad_message": true,
-  "ad_message_delay_seconds": 120,
-  "ad_message": "Add '{blue}YourAd{white}' to your nickname and earn bonus credits!",
   "ConfigVersion": 1
 }
 ```
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L611665R)
+
+Dependence
+`https://github.com/NaathySz/Store-Vip`
