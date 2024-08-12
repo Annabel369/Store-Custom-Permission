@@ -58,8 +58,8 @@ Edit file game\csgo\addons\counterstrikesharp\configs\admin_overrides.example.js
 
 flag @css/custom-permission is already a VIP already configured originally, the name is technical details but it works without permission 100, which is the original default
 
-# Config
-
+# Config json
+```
 "css_vip_adduser \"{SteamID}\" \"VIP_Gold\" \"40000\""
         },
         {
