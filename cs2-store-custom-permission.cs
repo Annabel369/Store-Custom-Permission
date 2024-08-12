@@ -11,23 +11,7 @@ namespace Store_CustomPermission
 {
     public class Store_CustomPermissionConfig : BasePluginConfig
     {
-        [JsonPropertyName("ad_texts")]
-        public List<string> AdTexts { get; set; } = new List<string> { "YourAd1", "YourAd2" };
-
-        [JsonPropertyName("bonus_credits")]
-        public int BonusCredits { get; set; } = 100;
-
-        [JsonPropertyName("interval_in_seconds")]
-        public int IntervalSeconds { get; set; } = 300;
-
-        [JsonPropertyName("show_ad_message")]
-        public bool ShowAdMessage { get; set; } = true;
-
-        [JsonPropertyName("ad_message_delay_seconds")]
-        public int AdMessageDelaySeconds { get; set; } = 120;
-
-        [JsonPropertyName("ad_message")]
-        public string AdMessage { get; set; } = "Add '{blue}YourAd{white}' to your CustomPermission credits!";
+       
     }
 
     public class Store_CustomPermission : BasePlugin, IPluginConfig<Store_CustomPermissionConfig>
@@ -40,30 +24,7 @@ namespace Store_CustomPermission
         private float intervalInSeconds;
         public Store_CustomPermissionConfig Config { get; set; } = null!;
 
-        private static readonly Dictionary<string, char> ColorMap = new Dictionary<string, char>
-        {
-            { "{default}", ChatColors.Default },
-            { "{white}", ChatColors.White },
-            { "{darkred}", ChatColors.DarkRed },
-            { "{green}", ChatColors.Green },
-            { "{lightyellow}", ChatColors.LightYellow },
-            { "{lightblue}", ChatColors.LightBlue },
-            { "{olive}", ChatColors.Olive },
-            { "{lime}", ChatColors.Lime },
-            { "{red}", ChatColors.Red },
-            { "{lightpurple}", ChatColors.LightPurple },
-            { "{purple}", ChatColors.Purple },
-            { "{grey}", ChatColors.Grey },
-            { "{yellow}", ChatColors.Yellow },
-            { "{gold}", ChatColors.Gold },
-            { "{silver}", ChatColors.Silver },
-            { "{blue}", ChatColors.Blue },
-            { "{darkblue}", ChatColors.DarkBlue },
-            { "{bluegrey}", ChatColors.BlueGrey },
-            { "{magenta}", ChatColors.Magenta },
-            { "{lightred}", ChatColors.LightRed },
-            { "{orange}", ChatColors.Orange }
-        };
+       
     private bool HasPermission(CCSPlayerController? player, string id)
     {
         string permission = string.Empty;
@@ -123,23 +84,7 @@ namespace Store_CustomPermission
         return (string.IsNullOrEmpty(permission) || AdminManager.PlayerHasPermissions(player, permission));
     }
 
-        public override void OnAllPluginsLoaded(bool hotReload)
-        {
-            storeApi = IStoreApi.Capability.Get();
-
-            if (storeApi == null)
-            {
-                return;
-            }
-
-            intervalInSeconds = Config.IntervalSeconds;
-            StartCreditTimer();
-
-            if (Config.ShowAdMessage)
-            {
-                StartAdMessageTimer();
-            }
-        }
+       
 
         public void OnConfigParsed(Store_CustomPermissionConfig config)
         {
@@ -225,32 +170,6 @@ namespace Store_CustomPermission
             });
         }
 
-        private void BroadcastAdMessage()
-        {
-            var message = ReplaceColorPlaceholders(Config.AdMessage);
-            var players = Utilities.GetPlayers();
-            foreach (var player in players)
-            {
-                if (player != null && !player.IsBot && player.IsValid)
-                {
-                    player.PrintToChat(Localizer["Prefix"] + message);
-                }
-            }
-        }
-
-        private string ReplaceColorPlaceholders(string message)
-        {
-            if (!string.IsNullOrEmpty(message) && message[0] != ' ')
-            {
-                message = " " + message;
-            }
-
-            foreach (var colorPlaceholder in ColorMap)
-            {
-                message = message.Replace(colorPlaceholder.Key, colorPlaceholder.Value.ToString());
-            }
-
-            return message;
-        }
+       
     }
 }
